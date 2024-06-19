@@ -1,15 +1,15 @@
-def add(num1, num2):
-  return num1 + num2
+def add(nhw, nsl):
+  return nhw + nsl
 
-def subtract(num1, num2):
-  return num1 - num2
+def subtract(nhw, nsl):
+  return nhw - nsl
 
-def multiply(num1, num2):
-  return num1 * num2
+def multiply(nhw, nsl):
+  return nhw * nsl
 
-def divide(num1, num2):
+def divide(nhw, nsl):
   try:
-    return (num1 / num2)
+    return (nhw / nsl)
   except ZeroDivisionError:
      return "Cannot divide by 0"
 
@@ -20,7 +20,7 @@ def get_num(text):
      return "Please enter a valid integer"
 
 def get_selection():
-  selection = int(input("\nSelect your calculator operations: \
+  selection = int(input("\nSelect your calculator function: \
                       \n1.Addition\
                       \n2.Subtraction\
                       \n3.Multiplication\
