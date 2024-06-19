@@ -1,15 +1,15 @@
-def add(num1, num2):
-  return num1 + num2
+def add(n1, n2):
+  return n1 + n2
 
-def subtract(num1, num2):
-  return num1 - num2
+def subtract(n1, n2):
+  return n1 - n2
 
-def multiply(num1, num2):
-  return num1 * num2
+def multiply(n1, n2):
+  return n1 * n2
 
-def divide(num1, num2):
+def divide(n1, n2):
   try:
-    return (num1 / num2)
+    return (n1 / n2)
   except ZeroDivisionError:
      return "Cannot divide by 0"
 
