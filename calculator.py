@@ -1,13 +1,15 @@
 def add(nhw, nsl):
   return nhw + nsl
 
-def subtract(nhw, nsl):
-  return nhw - nsl
+def subtract(n1, n2):
+  return n1 - n2
 
 def multiply(nhw, nsl):
   return nhw * nsl
+def multiply(n1, n2):
+  return n1 * n2
 
-def divide(nhw, nsl):
+def divide(n1, n2):
   try:
     return (nhw / nsl)
   except ZeroDivisionError:
