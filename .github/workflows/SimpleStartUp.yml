@@ -15,6 +15,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Print and list out content
-     run: |
-      ls
-      echo General Kenobi
+      run: |
+        ls
+        echo General Kenobi
