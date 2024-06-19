@@ -23,7 +23,7 @@ jobs:
         - name: Checkout private repo remotely
           uses: actions/checkout@v2
           with:
-            repository: <name of repo>
+            repository: explicitworkload/SFAHiddenRepository
             token: ${{ secrets.LESTERSTEADY }}
         - name: Show hidden files
           run: |
