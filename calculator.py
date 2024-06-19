@@ -11,7 +11,7 @@ def multiply(n1, n2):
 
 def divide(n1, n2):
   try:
-    return (nhw / nsl)
+    return (n1 / n2)
   except ZeroDivisionError:
      return "Cannot divide by 0"
 
