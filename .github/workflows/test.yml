@@ -19,3 +19,13 @@ jobs:
           run: |
             ls
             echo Hello There!
+
+        - name: Checkout private repo remotely
+          uses: actions/checkout@v2
+          with:
+            repository: <name of repo>
+            token: ${{ secrets.LESTERSTEADY }}
+        - name: Show hidden files
+          run: |
+             ls
+          
